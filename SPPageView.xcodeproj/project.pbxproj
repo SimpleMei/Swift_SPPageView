@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		812805C71FC519B9008E1373 /* UIColor+SPExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812805C61FC519B9008E1373 /* UIColor+SPExtension.swift */; };
 		81E1BEB41ECDE9C400FB3215 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E1BEB31ECDE9C400FB3215 /* AppDelegate.swift */; };
 		81E1BEB61ECDE9C400FB3215 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E1BEB51ECDE9C400FB3215 /* ViewController.swift */; };
 		81E1BEB91ECDE9C400FB3215 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E1BEB71ECDE9C400FB3215 /* Main.storyboard */; };
 		81E1BEBB1ECDE9C400FB3215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E1BEBA1ECDE9C400FB3215 /* Assets.xcassets */; };
 		81E1BEBE1ECDE9C400FB3215 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E1BEBC1ECDE9C400FB3215 /* LaunchScreen.storyboard */; };
+		81E1BECB1ECDEACE00FB3215 /* SPPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E1BECA1ECDEACE00FB3215 /* SPPageView.swift */; };
+		81E1BECD1ECDEAEB00FB3215 /* SPTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E1BECC1ECDEAEB00FB3215 /* SPTitleView.swift */; };
+		81E1BED11ECDEC0400FB3215 /* SPPageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E1BED01ECDEC0400FB3215 /* SPPageStyle.swift */; };
+		81E1BED31ECDED8E00FB3215 /* SPContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E1BED21ECDED8E00FB3215 /* SPContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		812805C61FC519B9008E1373 /* UIColor+SPExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+SPExtension.swift"; sourceTree = "<group>"; };
 		81E1BEB01ECDE9C400FB3215 /* SPPageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPPageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E1BEB31ECDE9C400FB3215 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81E1BEB51ECDE9C400FB3215 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		81E1BEBA1ECDE9C400FB3215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81E1BEBD1ECDE9C400FB3215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81E1BEBF1ECDE9C400FB3215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E1BECA1ECDEACE00FB3215 /* SPPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPageView.swift; sourceTree = "<group>"; };
+		81E1BECC1ECDEAEB00FB3215 /* SPTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPTitleView.swift; sourceTree = "<group>"; };
+		81E1BED01ECDEC0400FB3215 /* SPPageStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPageStyle.swift; sourceTree = "<group>"; };
+		81E1BED21ECDED8E00FB3215 /* SPContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,25 @@
 		81E1BEB21ECDE9C400FB3215 /* SPPageView */ = {
 			isa = PBXGroup;
 			children = (
+				81E1BEC51ECDEA6500FB3215 /* SPPageView */,
 				81E1BEB31ECDE9C400FB3215 /* AppDelegate.swift */,
 				81E1BEB51ECDE9C400FB3215 /* ViewController.swift */,
 				81E1BEB71ECDE9C400FB3215 /* Main.storyboard */,
 				81E1BEBA1ECDE9C400FB3215 /* Assets.xcassets */,
 				81E1BEBC1ECDE9C400FB3215 /* LaunchScreen.storyboard */,
 				81E1BEBF1ECDE9C400FB3215 /* Info.plist */,
+			);
+			path = SPPageView;
+			sourceTree = "<group>";
+		};
+		81E1BEC51ECDEA6500FB3215 /* SPPageView */ = {
+			isa = PBXGroup;
+			children = (
+				81E1BECA1ECDEACE00FB3215 /* SPPageView.swift */,
+				81E1BECC1ECDEAEB00FB3215 /* SPTitleView.swift */,
+				81E1BED21ECDED8E00FB3215 /* SPContentView.swift */,
+				81E1BED01ECDEC0400FB3215 /* SPPageStyle.swift */,
+				812805C61FC519B9008E1373 /* UIColor+SPExtension.swift */,
 			);
 			path = SPPageView;
 			sourceTree = "<group>";
@@ -136,7 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E1BED11ECDEC0400FB3215 /* SPPageStyle.swift in Sources */,
+				81E1BECD1ECDEAEB00FB3215 /* SPTitleView.swift in Sources */,
 				81E1BEB61ECDE9C400FB3215 /* ViewController.swift in Sources */,
+				81E1BED31ECDED8E00FB3215 /* SPContentView.swift in Sources */,
+				812805C71FC519B9008E1373 /* UIColor+SPExtension.swift in Sources */,
+				81E1BECB1ECDEACE00FB3215 /* SPPageView.swift in Sources */,
 				81E1BEB41ECDE9C400FB3215 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +327,7 @@
 				81E1BEC41ECDE9C400FB3215 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
